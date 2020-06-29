@@ -4,9 +4,14 @@ To anyone coming here to **clone this bot**, no support will be given for it. If
 
 A modular Telegram Python bot running on python3 with an sqlalchemy database.
 
-Can be found on telegram as [UserbotIndoBot](https://t.me/HarukaAyaBot).
+Can be found on telegram as [UserbotIndoBot](https://t.me/userindotestbot).
 
 You can also join our support group [here!](https://t.me/Userbotindo)
+
+## Deploy
+
+Deploy to Heroku:
+<p align="left"><a href="https://heroku.com/deploy?template=https://github.com/MoveAngel/UserbotindoBot/tree/stag"> <img src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy to Heroku" /></a></p>
 
 ## Thanks to
 * RealAkito - Current Haruka Aya Owner

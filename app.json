@@ -1,0 +1,74 @@
+{
+    "name": "UserbotindoBot",
+    "description": "Telegram's sassiest group manager. Modular Telegram group management bot!",
+    "keywords": [
+      "telegram",
+      "best",
+      "group",
+      "manager",
+      "3"
+    ],
+    "repository": "hhttps://github.com/MoveAngel/UserbotindoBot",
+    "env": {
+      "bot_token": {
+        "description": "Your bot token, as a string.",
+        "value": ""
+      },
+      "database_url": {
+        "value": ""
+      },
+      "owner_id": {
+        "description": "An integer of consisting of your owner ID",
+        "value": ""
+      },
+      "owner_username": {
+        "description": "Your username",
+        "value": ""
+      },
+      "api_key": {
+        "value": ""
+      },
+      "api_hash": {
+        "value": ""
+      },
+      "message_dump": {
+        "description": "optional: a chat where your replied saved messages are stored, to stop people deleting their old",
+        "value": ""
+      },
+      "gban_dump": {
+        "description": "optional: a chat where your replied gbanned messages are stored, to stop people deleting their old",
+        "value": ""
+      },
+      "sudo_users": {
+        "description": "A space separated list of user_ids which should be considered sudo users",
+        "value": ""
+      },
+      "support_users": {
+        "description": "A space separated list of user_ids which should be considered support users (can gban/ungban, nothing else)",
+        "value": ""
+      },
+      "whitelist_users": {
+        "description": "A space separated list of user_ids which should be considered whitelisted - they can't be banned.",
+        "value": ""
+      },
+      "strict_antispam": {
+        "value": "False"
+      },
+      "deepfry_token": {
+        "description": "Fill of your deepfry token",
+        "value": "None"
+      },
+      "del_cmds": {
+        "description": "Whether to delete commands from users which don't have rights to use that command",
+        "value": "False"
+      }
+    },
+    "addons": [
+      {
+        "plan": "heroku-postgresql",
+        "options": {
+          "version": "9.5"
+        }
+      }
+    ]
+  }

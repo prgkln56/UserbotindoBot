@@ -176,7 +176,7 @@ except ModuleNotFoundError:
 	antispam_module = False
 
 
-def spamcheck(func):
+def spamfilters(func):
 	@wraps(func)
 	def check_user(update, context, *args, **kwargs):
 		chat = update.effective_chat

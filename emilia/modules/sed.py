@@ -6,7 +6,7 @@ import telegram
 from telegram import Update, Bot
 from telegram.ext import run_async
 
-from emilia import dispatcher, LOGGER, spamfilters
+from emilia import dispatcher, LOGGER, spamcheck
 from emilia.modules.disable import DisableAbleRegexHandler
 
 DELIMITERS = ("/", ":", "|", "_")
@@ -61,7 +61,7 @@ max_time = 5
 @run_async
 def sed(bot: Bot, update: Update):
     start = time.time()
-    spam = spamfilters(update.effective_message.text, update.effective_message.from_user.id, update.effective_chat.id, update.effective_message)
+    spam = spamcheck(update.effective_message.text, update.effective_message.from_user.id, update.effective_chat.id, update.effective_message)
     if spam == True:
         return
     if update.effective_message.from_user.id != 388576209:

@@ -9,6 +9,8 @@ Based on [marie bot](https://github.com/PaulSonOfLars/tgbot) and [EmiliaHikariBo
 
 Dapat ditemukan di telegram sebagai [UserbotindoBot](https://t.me/userbotindobot).
 
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/agung-762/UserbotindoBot.git)
+
 
 # source info
 

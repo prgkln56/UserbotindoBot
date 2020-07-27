@@ -17,7 +17,7 @@
       },
       "TOKEN": {
         "description": "Your bot token, as a string.",
-        "value": ""
+        "value": "1258938329:AAHYJQn9umvO4wz8GoBOpjhZg_pVnSbV98Y"
       },
       "OWNER_ID": {
         "description": "An integer of consisting of your owner ID",
@@ -33,7 +33,7 @@
       },
       "URL": {
         "description": "The Heroku App URL similar to https://pcbotv02.herokuapp.com/",
-        "value": ""
+        "value": "https://pcbotv02.herokuapp.com/"
       },
       "MESSAGE_DUMP": {
         "description": "optional: a chat where your replied saved messages are stored, to stop people deleting their old",
@@ -80,7 +80,7 @@
       {
         "plan": "heroku-postgresql",
         "options": {
-          "version": "9.5"
+          "version": "12"
         }
       }
     ]

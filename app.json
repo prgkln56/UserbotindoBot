@@ -1,6 +1,6 @@
 
 {
-    "name": "UserbotindoBot",
+    "name": "PCSecurity",
     "description": "Telegram's sassiest group manager. Modular Telegram group management bot!",
     "keywords": [
       "telegram",
@@ -9,7 +9,7 @@
       "manager",
       "3"
     ],
-    "repository": "hhttps://github.com/MoveAngel/UserbotindoBot",
+    "repository": "hhttps://github.com/Agung-762/UserbotindoBot",
     "env": {
       "ENV": {
         "description": "Setting this to ANYTHING will enable env variables",
@@ -21,23 +21,23 @@
       },
       "OWNER_ID": {
         "description": "An integer of consisting of your owner ID",
-        "value": "680900214"
+        "value": "1154565101"
       },
       "OWNER_USERNAME": {
         "description": "Your username",
-        "value": "MoveAngel"
+        "value": "NLydiaW"
       },
       "WEBHOOK": {
         "description": "Setting this to ANYTHING will enable webhooks when in env mode messages",
         "value": "ANYTHING"
       },
       "URL": {
-        "description": "The Heroku App URL similar to https://<appname>.herokuapp.com/",
+        "description": "The Heroku App URL similar to https://pcbotv02.herokuapp.com/",
         "value": ""
       },
       "MESSAGE_DUMP": {
         "description": "optional: a chat where your replied saved messages are stored, to stop people deleting their old",
-        "value": "-1001358195243"
+        "value": "-490198696"
       },
       "SUDO_USERS": {
         "description": "A space separated list of user_ids which should be considered sudo users",
@@ -45,15 +45,15 @@
       },
       "SUPPORT_USERS": {
         "description": "A space separated list of user_ids which should be considered support users (can gban/ungban, nothing else)",
-        "value": "901788824"
+        "value": "1032393998"
       },
       "WHITELIST_USERS": {
         "description": "A space separated list of user_ids which should be considered whitelisted - they can't be banned.",
-        "value": "901788824"
+        "value": "1032393998"
       },
       "DONATION_LINK": {
         "description": "Optional: link where you would like to receive donations.",
-        "value": "https://www.paypal.me/MoveAngel"
+        "value": "DDfw8dSx9o2Em7F1QPmZ2YW7uLAzz2mmLK"
       },
       "PORT": {
         "description": "Port to use for your webhooks",

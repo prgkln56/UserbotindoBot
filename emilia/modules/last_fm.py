@@ -1,3 +1,4 @@
+# Last.fm 
 
 import requests
 
@@ -78,6 +79,7 @@ def last_fm(bot: Bot, update: Update):
     
 __help__ = """
 Share what you're what listening to with the help of this module!
+
 *Available commands:*
  - /setuser <username>: sets your last.fm username.
  - /clearuser: removes your last.fm username from the bot's database.

@@ -78,12 +78,12 @@ if ENV:
 	BAN_STICKER = os.environ.get('BAN_STICKER', 'CAADBAAD4kYAAuOnXQW5LUN400QOBQI')
 	# ALLOW_EXCL = os.environ.get('ALLOW_EXCL', False)
 	CUSTOM_CMD = os.environ.get('CUSTOM_CMD', False)
-	LASTFM_API_KEY = os.environ.get('LASTFM_API_KEY', "")
 	API_WEATHER = os.environ.get('API_OPENWEATHER', None)
 	API_ACCUWEATHER = os.environ.get('API_ACCUWEATHER', None)
 	MAPS_API = os.environ.get('MAPS_API', None)
 	TEMPORARY_DATA = os.environ.get('TEMPORARY_DATA', None)
 	SPAMWATCH_TOKEN = os.environ.get('SPAMWATCH_TOKEN', None)
+	LASTFM_API_KEY = os.environ.get('LASTFM_API_KEY', "")
 
 else:
 	from emilia.config import Development as Config
@@ -140,11 +140,11 @@ else:
 	BAN_STICKER = Config.BAN_STICKER
 	# ALLOW_EXCL = Config.ALLOW_EXCL
 	CUSTOM_CMD = Config.CUSTOM_CMD
-	LASTFM_API_KEY = Config.LASTFM_API_KEY
 	API_WEATHER = Config.API_OPENWEATHER
 	API_ACCUWEATHER = Config.API_ACCUWEATHER
 	MAPS_API = Config.MAPS_API
 	TEMPORARY_DATA = Config.TEMPORARY_DATA
+	LASTFM_API_KEY = Config.LASTFM_API_KEY
 	try:
 		SPAMWATCH_TOKEN = Config.SPAMWATCH_TOKEN
 	except:

@@ -36,9 +36,9 @@ from emilia.modules.languages import tl
 from emilia.modules.helper_funcs.alternate import send_message
 
 
-@register(outgoing=True, pattern="^.yt (.*)")
+@register(outgoing=True, pattern="^/yt (/*)")
 	async def yt_search(video_q):
-	    """ For .yt command, do a YouTube search from Telegram. """
+	    """ For /yt command, do a YouTube search from Telegram. """
 	    query = video_q.pattern_match.group(1)
 	    result = ''
 	

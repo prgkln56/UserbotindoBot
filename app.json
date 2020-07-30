@@ -1,6 +1,6 @@
 
 {
-    "name": "PCSecurity",
+    "name": "GhostProject",
     "description": "Telegram's sassiest group manager. Modular Telegram group management bot!",
     "keywords": [
       "telegram",
@@ -17,15 +17,15 @@
       },
       "TOKEN": {
         "description": "Your bot token, as a string.",
-        "value": "1258938329:AAHYJQn9umvO4wz8GoBOpjhZg_pVnSbV98Y"
+        "value": "1135363503:AAHy_TV9Q8tOu-AkJx_9Q3VtWDW3x0RH63s"
       },
       "OWNER_ID": {
         "description": "An integer of consisting of your owner ID",
-        "value": "1154565101"
+        "value": "1138505883"
       },
       "OWNER_USERNAME": {
         "description": "Your username",
-        "value": "NLydiaW"
+        "value": "FirmanFY"
       },
       "WEBHOOK": {
         "description": "Setting this to ANYTHING will enable webhooks when in env mode messages",
@@ -75,9 +75,9 @@
         "description": "Which sticker to use when banning people. Use https://telegram.dog/ShowJsonBot to get the file_id",
         "value": "CAADBAAD6AMAAkJ_EQNu_RjOszbmnxYE"
       },
-	    "YOUTUBE_API_KEY": {
-	      "description": "YouTube Data API Key for .yt command. Get from https://console.cloud.google.com",
-	      "required": false
+	 "YOUTUBE_API_KEY": {
+	      "description": "YouTube Data API Key for /yt command. Get from https://console.cloud.google.com",
+	      "value": "AIzaSyCSJN9_7GB9zfrdTssqZ7XEI1pGjXAEBrc"
       }
     },
     "addons": [

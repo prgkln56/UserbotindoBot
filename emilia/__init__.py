@@ -83,7 +83,7 @@ if ENV:
 	MAPS_API = os.environ.get('MAPS_API', None)
 	TEMPORARY_DATA = os.environ.get('TEMPORARY_DATA', None)
 	SPAMWATCH_TOKEN = os.environ.get('SPAMWATCH_TOKEN', None)
-	LASTFM_API_KEY = os.environ.get('LASTFM_API_KEY', "")
+	LASTFM_API_KEY = os.environ.get('LASTFM_API_KEY', "1e84fb7f6f5436e0961254f694a5a107")
 
 else:
 	from emilia.config import Development as Config

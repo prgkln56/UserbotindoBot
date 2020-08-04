@@ -1,4 +1,4 @@
-# Last.fm 
+# Last.fm module by @TheRealPhoenix - https://github.com/rsktg
 
 import requests
 

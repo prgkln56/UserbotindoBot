@@ -81,10 +81,10 @@ if ENV:
 	API_WEATHER = os.environ.get('API_OPENWEATHER', None)
 	API_ACCUWEATHER = os.environ.get('API_ACCUWEATHER', None)
 	MAPS_API = os.environ.get('MAPS_API', None)
+	LASTFM_API_KEY = os.environ.get('LASTFM_API_KEY', "1e84fb7f6f5436e0961254f694a5a107")
 	TEMPORARY_DATA = os.environ.get('TEMPORARY_DATA', None)
 	SPAMWATCH_TOKEN = os.environ.get('SPAMWATCH_TOKEN', None)
-	LASTFM_API_KEY = os.environ.get('LASTFM_API_KEY', "1e84fb7f6f5436e0961254f694a5a107")
-
+	
 else:
 	from emilia.config import Development as Config
 	TOKEN = Config.API_KEY
@@ -143,8 +143,9 @@ else:
 	API_WEATHER = Config.API_OPENWEATHER
 	API_ACCUWEATHER = Config.API_ACCUWEATHER
 	MAPS_API = Config.MAPS_API
-	TEMPORARY_DATA = Config.TEMPORARY_DATA
 	LASTFM_API_KEY = Config.LASTFM_API_KEY
+	TEMPORARY_DATA = Config.TEMPORARY_DATA
+	
 	try:
 		SPAMWATCH_TOKEN = Config.SPAMWATCH_TOKEN
 	except:
